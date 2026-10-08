@@ -1,0 +1,27 @@
+# Environments & Caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDE & Course Metadata
+.idea/
+.cadence/
+course-info.yaml
+course-remote-info.yaml
+
+# Local Data & Media (Don't push huge blobs)
+*.sqlite
+GenAnkiCards/task3_image_and_audio/images/*.png
+GenAnkiCards/task3_image_and_audio/audio/*.mp3
+!GenAnkiCards/task3_image_and_audio/images/dummy.png
+!GenAnkiCards/task3_image_and_audio/audio/dummy.mp3
+
+*.pt
+LanguageModeling/task01_ngrams/arxivData.json
+*.pt
+*.bin
+*.safetensors
+__pycache__/
+.venv/
+.idea/
