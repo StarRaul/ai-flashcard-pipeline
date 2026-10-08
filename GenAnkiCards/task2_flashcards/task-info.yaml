@@ -1,0 +1,46 @@
+type: edu
+custom_name: Flashcard Generator
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 3456
+        length: 33
+        placeholder_text: "None # TODO: Get response content"
+        initial_state:
+          length: 33
+          offset: 3588
+        initialized_from_dependency: false
+        encrypted_possible_answer: PSE2TPyT37FTb1Jnw1sT2L0v0KtIoSDYp9580hsQGhBOtndTVKfzvzlz6XIj2cT0
+        selected: false
+        status: Solved
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: config.py
+    visible: true
+    learner_created: false
+  - name: flashcard.py
+    visible: true
+    learner_created: false
+  - name: A2_greek_flashcards.json
+    visible: true
+    learner_created: false
+  - name: A2_english.json
+    visible: true
+    learner_created: false
+  - name: flashcards_example.json
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 08 Oct 2026 17:02:53 UTC"
+record: -1
