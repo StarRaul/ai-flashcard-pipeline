@@ -1,8 +1,28 @@
-# (AWS) Mastering Large Language Models
-[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+﻿# AI Flashcard Pipeline & MinLlama
 
-## Want to know more?
-If you have questions about the course or the tasks, or if you find any errors, feel free to ask questions and participate in discussions within the repository issues.
+A complete machine learning pipeline implemented in PyTorch. This repository covers the progression from foundational NLP and custom attention mechanics to LoRA fine-tuning, RAG, and an automated Anki flashcard generator.
 
-## Contribution
-Please be sure to review the [project's contributing guidelines](https://github.com/jetbrains-academy/.github/blob/main/contributing_guidelines.md) to learn how to help the project.
+## Project includes
+
+### 1. NLP Basics (`NLPBasics`)
+Text preprocessing pipelines, subword tokenization, and vocabulary mapping.
+
+### 2. Language Modeling (`LanguageModeling`)
+Next-token prediction, cross-entropy training, and autoregressive generation loops.
+
+### 3. MinLlama (`MinLlama`)
+A lightweight PyTorch implementation of the LLaMA architecture.
+* Rotary Position Embeddings (RoPE)
+* RMSNorm pre-normalization
+* SwiGLU activations
+* Causal self-attention
+
+### 4. Fine-Tuning (`FineTuning`)
+Parameter-efficient fine-tuning (PEFT) using Low-Rank Adaptation (LoRA) to train model weights efficiently.
+
+### 5. RAG (`RAG`)
+Text chunking, vector embeddings, and similarity search for context-grounded text generation.
+
+### 6. Anki Card Generator (`GenAnkiCards`)
+Document parser that takes technical text and outputs formatted `.apkg` study decks for spaced repetition.
+
